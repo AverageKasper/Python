@@ -1,2 +1,2 @@
-name = input("Anna nimesi: ")
-hello = print("Hei,", name)
+name = input("Nimi: ")
+hello = print("Terve," + name)
