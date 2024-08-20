@@ -1,3 +1,3 @@
-#Metropolian Ohjelmointi 1 kurssin Python\
-##Tehtävät\
+# Metropolian Ohjelmointi 1 kurssin Python\
+## Tehtävät\
 [Tehtävä 2a](Teht1/Nimi.py)
