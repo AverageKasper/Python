@@ -1,2 +1,1 @@
-test = int(input("Numero: "))
-print("numerosi on:", test )
+print("Hyvää\nhuomenta")
