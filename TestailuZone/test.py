@@ -1,2 +1,4 @@
-var = input("nimi")
-print("hauska tavata, "+ var + " !")
+name = input("Nimi: ")
+age = input("Ikä: ")
+
+print(name + "," + age)
