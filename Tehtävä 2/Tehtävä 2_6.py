@@ -1,0 +1,10 @@
+import random
+randvar1_1 = random.randint(0,9)
+randvar1_2 = random.randint(0,9)
+randvar1_3 = random.randint(0,9)
+print(f"Kolmenumeroinen koodi: {randvar1_1:<.0f}{randvar1_2:<.0f}{randvar1_3:.0f}")
+randvar2_1 = random.randint(1,6)
+randvar2_2 = random.randint(1,6)
+randvar2_3 = random.randint(1,6)
+randvar2_4 = random.randint(1,6)
+print(f"Nelinumeroinen koodi: {randvar2_1:<.0f}{randvar2_2:<.0f}{randvar2_3:<.0f}{randvar2_4:<.0f}")
