@@ -15,9 +15,9 @@
 [Tehtävä 3.3](<Tehtävä 3/Tehtävä_3_3.py>)\
 [Tehtävä 3.4](<Tehtävä 3/Tehtävä_3_4.py>)
 ### Tehtävä 4
-[Tehtävä 4.1](<Tehtävä 4/Tehtävä_4_1.py>)
-
-
+[Tehtävä 4.1](<Tehtävä 4/Tehtävä_4_1.py>)\
+[Tehtävä 4.2](<Tehtävä 4/Tehtävä_4_2.py>)\
+[Tehtävä 4.3](<Tehtävä 4/Tehtävä_4_3.py>)
 
 
 
