@@ -10,4 +10,15 @@
 [Tehtävä 2.5](<Tehtävä 2/Tehtävä 2_5.py>)\
 [Tehtävä 2.6](<Tehtävä 2/Tehtävä 2_6.py>)
 ### Tehtävä 3
+[Tehtävä 3.1](<Tehtävä 3/Tehtävä_3_1.py>)
+[Tehtävä 3.2](<Tehtävä 3/Tehtävä_3_2.py>)
+[Tehtävä 3.3](<Tehtävä 3/Tehtävä_3_3.py>)
+[Tehtävä 3.4](<Tehtävä 3/Tehtävä_3_4.py>)
+### Tehtävä 4
+[Tehtävä 4.1](<Tehtävä 4/Tehtävä_4_1.py>)
+
+
+
+
+
 placeholders
