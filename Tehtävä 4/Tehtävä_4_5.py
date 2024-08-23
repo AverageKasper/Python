@@ -3,11 +3,11 @@
 # Tätä jatketaan kunnes kirjautumistiedot ovat oikein tai väärät tiedot on syötetty viisi kertaa. 
 # Edellisessä tapauksessa tulostetaan Tervetuloa ja jälkimmäisessä Pääsy evätty. 
 # (Oikea käyttäjätunnus on python ja salasana rules).
-usercor = str('p')
-pwcor = str('r')
+usercor = str('python')
+pwcor = str('rules')
 attempt = 1
 while usercor and pwcor:
-    user = input("käyttäjä: ")
+    user = input("Syötä käyttäjä: ")
     if attempt == 5:
         print("lukittu")
         break
