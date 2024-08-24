@@ -8,6 +8,4 @@ while dice_amount > 0:
     dice_amount = dice_amount - 1
 for n in dice:
      score = score + n 
-
-print(dice)
 print(f"Noppien kokonais tulo : {score}")
