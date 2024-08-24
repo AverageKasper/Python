@@ -17,8 +17,12 @@
 ### Tehtävä 4
 [Tehtävä 4.1](<Tehtävä 4/Tehtävä_4_1.py>)\
 [Tehtävä 4.2](<Tehtävä 4/Tehtävä_4_2.py>)\
-[Tehtävä 4.3](<Tehtävä 4/Tehtävä_4_3.py>)
-
-
+[Tehtävä 4.3](<Tehtävä 4/Tehtävä_4_3.py>)\
+[Tehtävä 4.3](<Tehtävä 4/Tehtävä_4_3V2.py>) Vaihtoehtoinen versio\
+[Tehtävä 4.4](<Tehtävä 4/Tehtävä_4_4.py>)\
+[Tehtävä 4.5](<Tehtävä 4/Tehtävä_4_5.py>)\
+[Tehtävä 4.6](<Tehtävä 4/Tehtävä_4_6.py>)
+### Tehtävä 5
+[Tehtävä 5.1](<Tehtävä 5/Tehtävä_5_1.py>)\
 
 placeholders
