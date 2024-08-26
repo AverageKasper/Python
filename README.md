@@ -1,4 +1,5 @@
 # Metropolian Ohjelmointi 1 kurssin Python
+### [Linkki Tehtäviin](<https://github.com/vesavvo/Python_Ohjelmistoteema/tree/main>)
 ## Tehtävät
 ### Tehtävä 1
 [Tehtävä 1.1](<Tehtävä 1/Tehtävä_1_1.py>)
