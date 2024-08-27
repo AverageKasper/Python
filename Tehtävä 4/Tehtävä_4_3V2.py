@@ -10,7 +10,6 @@ while num:
         nummin = num
     elif float(num) > float(nummax):
         nummax = num
-        print(num)
     num = input("Syötä seuraava luku: ")
     if not num:
         print(f"Listan pienin luku on {nummin} ja suurin luku on {nummax}")
