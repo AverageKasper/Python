@@ -2,13 +2,15 @@
 # Kirjoita pääohjelma, joka heittää noppaa niin kauan kunnes tulee kuutonen. 
 # Pääohjelma tulostaa kunkin heiton jälkeen saadun silmäluvun.
 import random as r
-def noppa():
-    noppa_luku = r.randint(1,6)
-    if noppa_luku != 6:
-        print(f"Tulos on {noppa_luku}, heitetään uudestaan")
-        noppa()
-    elif noppa_luku == 6:
-        print(f"Noppa tulos on {noppa_luku}, yippee")
-    return()
-noppa()
 
+def dice():
+    dice_roll = r.randint(1,6)
+    return(dice_roll)
+
+final_roll = dice()
+
+while final_roll != 6:
+    print(f"Nopan tulos on {final_roll}, heitetään uudestaan")
+    final_roll = dice()
+else:
+    print(f"Lopputulos {final_roll}")
