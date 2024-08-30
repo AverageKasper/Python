@@ -25,5 +25,14 @@
 [Tehtävä 4.6](<Tehtävä 4/Tehtävä_4_6.py>)
 ### Tehtävä 5
 [Tehtävä 5.1](<Tehtävä 5/Tehtävä_5_1.py>)\
+[Tehtävä 5.2](<Tehtävä 5/Tehtävä_5_2.py>)\
+[Tehtävä 5.3](<Tehtävä 5/Tehtävä_5_3.py>)\
+[Tehtävä 5.4](<Tehtävä 5/Tehtävä_5_4.py>)
+### Tehtävä 6
+[Tehtävä 6.1](<Tehtävä 6/Tehtävä_6_1.py>)\
+[Tehtävä 6.2](<Tehtävä 6/Tehtävä_6_2.py>)\
+[Tehtävä 6.3](<Tehtävä 6/Tehtävä_6_3.py>)\
+[Tehtävä 6.4](<Tehtävä 6/Tehtävä_6_4.py>)\
+[Tehtävä 6.5](<Tehtävä 6/Tehtävä_6_5.py>)\
+[Tehtävä 6.6](<Tehtävä 6/Tehtävä_6_6.py>)
 
-placeholders
