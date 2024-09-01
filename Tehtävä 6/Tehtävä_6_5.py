@@ -13,6 +13,5 @@ def laskuri(num: list):
         if i % 2 > 0:
             evennum.remove(i)
     return(evennum)
-    # return(score)
 
 print(f"Uusi Lista {laskuri(numlist)}. Vanha Lista {numlist}.")
