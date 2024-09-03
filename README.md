@@ -21,8 +21,8 @@
 <details>
 <summary> Tehtävä 3</summary>
 <br>
-<p><a href = "Tehtävä 3/Tehtävä_3_1.py">Tehtävä 3.1 
-<a href = "Tehtävä 3/Tehtävä_3_2.py"> Tethävä 3.2
+<p><a href = "Tehtävä 3/Tehtävä_3_1.py">Tehtävä 3.1 \ 
+<a href = "Tehtävä 3/Tehtävä_3_2.py"> Tehtävä 3.2 
 
 
 
