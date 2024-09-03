@@ -38,6 +38,6 @@
 <details>
 <summary> Tehtävä 7</summary>
 <br>
-<p><a href = "Tehtävä 7/Tehtävä_7_1.py"> </p>
+<p><a href = "Tehtävä 7/Tehtävä_7_1.py">Tehtävä 7.1 </p>
 </details>
 
