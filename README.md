@@ -18,6 +18,41 @@
 <p><a href = "Tehtävä 2/Tehtävä_2_6.py">Tehtävä 2.6 </p>
 </details>
 
+<details>
+<summary> Tehtävä 3</summary>
+<br>
+<p><a href = "Tehtävä 3/Tehtävä_3_1.py">Tehtävä 3.1 
+<a href = "Tehtävä 3/Tehtävä_3_2.py"> Tethävä 3.2
+
+
+
+</p>
+</details>
+
+<details>
+<summary> Tehtävä 4</summary>
+<br>
+<p><a href = "Tehtävä 1/Tehtävä_1_1.py">Tehtävä 1.1 </p>
+</details>
+
+<details>
+<summary> Tehtävä 5</summary>
+<br>
+<p><a href = "Tehtävä 1/Tehtävä_1_1.py">Tehtävä 1.1 </p>
+</details>
+
+<details>
+<summary> Tehtävä 6</summary>
+<br>
+<p><a href = "Tehtävä 1/Tehtävä_1_1.py">Tehtävä 1.1 </p>
+</details>
+
+<details>
+<summary> Tehtävä 7</summary>
+<br>
+<p><a href = "Tehtävä 1/Tehtävä_1_1.py">Tehtävä 1.1 </p>
+</details>
+
 ### Tehtävä 2
 [Tehtävä 2.1](<Tehtävä 2/Tehtävä_2_1.py>)\
 [Tehtävä 2.2](<Tehtävä 2/Tehtävä_2_2.py>)\
