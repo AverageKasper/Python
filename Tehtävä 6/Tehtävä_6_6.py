@@ -13,7 +13,7 @@ peuro_2 = float(input("Toisen pizzan hinta euroissa: "))
 def pizza_calc(half, euro):
     pizza_rad = half / 2
     pizza_area = m.pi * (pizza_rad ** 2)
-    area_in_sqm = pizza_area / 1000
+    area_in_sqm = pizza_area / 10000
     price = euro / area_in_sqm
     return(price)
 
