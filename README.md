@@ -35,4 +35,9 @@
 [Tehtävä 6.4](<Tehtävä 6/Tehtävä_6_4.py>)\
 [Tehtävä 6.5](<Tehtävä 6/Tehtävä_6_5.py>)\
 [Tehtävä 6.6](<Tehtävä 6/Tehtävä_6_6.py>)
+<details>
+<summary> Tehtävä 7</summary>
+<br>
+<p><a href = "Tehtävä 7/Tehtävä_7_1.py"> </p>
+</details>
 
