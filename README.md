@@ -10,12 +10,14 @@
 <details>
 <summary> Tehtävä 2</summary>
 <br>
-<p><a href = "Tehtävä 2/Tehtävä_2_1.py">Tehtävä 2.1 </p>
-<p><a href = "Tehtävä 2/Tehtävä_2_2.py">Tehtävä 2.2 </p>
-<p><a href = "Tehtävä 2/Tehtävä_2_3.py">Tehtävä 2.3 </p>
-<p><a href = "Tehtävä 2/Tehtävä_2_4.py">Tehtävä 2.4 </p>
-<p><a href = "Tehtävä 2/Tehtävä_2_5.py">Tehtävä 2.5 </p>
-<p><a href = "Tehtävä 2/Tehtävä_2_6.py">Tehtävä 2.6 </p>
+<p>
+<a href = "Tehtävä 2/Tehtävä_2_1.py">Tehtävä 2.1 <br>
+<a href = "Tehtävä 2/Tehtävä_2_2.py">Tehtävä 2.2 <br>
+<a href = "Tehtävä 2/Tehtävä_2_3.py">Tehtävä 2.3 <br>
+<a href = "Tehtävä 2/Tehtävä_2_4.py">Tehtävä 2.4 <br>
+<a href = "Tehtävä 2/Tehtävä_2_5.py">Tehtävä 2.5 <br>
+<a href = "Tehtävä 2/Tehtävä_2_6.py">Tehtävä 2.6 
+</p>
 </details>
 
 <details>
