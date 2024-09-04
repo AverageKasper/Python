@@ -1,4 +1,3 @@
-#Kesken
 year = float(input("Syötä Vuosiluku: "))
 
 if year % 4 == 0 :
