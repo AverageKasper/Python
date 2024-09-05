@@ -88,3 +88,14 @@
 <a href = "Tehtävä 8/Tehtävä_8_3.py"> Tehtävä 8.3 
 </p>
 </details>
+
+<details>
+<summary> Tehtävä 8</summary>
+<br>
+<p>
+<a href = "Tehtävä 9/Tehtävä_9_1.py"> Tehtävä 9.1 <br>
+<a href = "Tehtävä 9/Tehtävä_9_2.py"> Tehtävä 9.2 <br>
+<a href = "Tehtävä 9/Tehtävä_9_3.py"> Tehtävä 9.3 <br>
+<a href = "Tehtävä 9/Tehtävä_9_4.py"> Tehtävä 9.4
+</p>
+</details>
