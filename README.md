@@ -90,7 +90,7 @@
 </details>
 
 <details>
-<summary> Tehtävä 8</summary>
+<summary> Tehtävä 9</summary>
 <br>
 <p>
 <a href = "Tehtävä 9/Tehtävä_9_1.py"> Tehtävä 9.1 <br>
