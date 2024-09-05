@@ -52,6 +52,6 @@ cars.sort(key=sorting, reverse=True)
 
 # Prints sorted list of cars
 for c in cars:
-    print(f"{c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
-
+    print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
+# How many hours to finish the race
 print(f"Race took {total_hours} hours to finish.")
