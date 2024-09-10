@@ -17,6 +17,8 @@ def airport_finder(icao):
     if kursori.rowcount >0:
         for rivi in tulos:
             print(f"Lentokentän nimi on {rivi[0]}, kaupungista {rivi[1]}")
+    else:
+        print("Virheellinen ICAO-Koodi")
 
 icao = input("Syötä lentokentän ICAO-koodi: ")
 airport_finder(icao)
