@@ -23,7 +23,7 @@ class Elevator:
         else:
             print(f"Saavuit kerrokseen: {self.current_floor}")
 
-        print(f"Palataan pohjakerrokseen")
+        print(f"\nHissi palaa pohjakerrokseen.")
 
         # Returns to the bottom floor
         while self.current_floor is not self.bottom_floor:
@@ -34,7 +34,7 @@ class Elevator:
                 
                 Elevator.floor_up(self,1)
         else:
-            print(f"Saavuit kerrokseen: {self.current_floor}")
+            print(f"Hissi on kerroksessa {self.current_floor}")
 
     # Elevator goes up
     def floor_up(self, floor):
@@ -53,10 +53,13 @@ class Building:
     
     def move_elevator(self, elevator_num, target):
         if elevator_num < len(self.elevator_count):
-            print(f"Liikutaan hissillä {elevator_num + 1}")
+            print(f"\nLiikutaan hissillä {elevator_num + 1}")
             self.elevator_count[elevator_num].move_to_floor(target)
 
-floor_to_move = int(input("Mihin kerrokseen haluat mennä(1-12): "))
-elevator_to_move = int(input("Mitä hissiä haluat käyttää(1-4): "))
+
 house = Building(1,12,4)
-Building.move_elevator(house,elevator_to_move,floor_to_move)
+Building.move_elevator(house,0,7)
+Building.move_elevator(house,1,3)
+Building.move_elevator(house,2,12)
+Building.move_elevator(house,3,2)
+
