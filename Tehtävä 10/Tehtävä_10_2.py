@@ -6,9 +6,12 @@ class Elevator:
 
     # Function moves to the inputted floor
     def move_to_floor(self,floor):
+
+        # Check that input floor is not out of range
         if floor > self.top_floor or floor < self.bottom_floor:
             print("Virheellinen kerros, ohjelma suljetaan.")
             return
+        
         # Moves floor to inputted floor
         while self.current_floor is not floor:
             if self.current_floor > floor:
@@ -41,6 +44,14 @@ class Elevator:
     def floor_down(self, floor):
         self.current_floor -= floor
 
+# Building class
+class Building:
+    def __init__(self, top_floor, bottom_floor, elevator_count):
+        self.top_floor = top_floor
+        self.bottom_floor = bottom_floor
+    
+    def move_elevator(self, elevator_num, target):
+        pass
 
 floor_to_move = int(input("Mihin kerrokseen haluat mennä: "))
 hotel = Elevator(1, 10)
