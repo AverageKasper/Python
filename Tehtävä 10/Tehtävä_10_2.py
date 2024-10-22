@@ -46,13 +46,17 @@ class Elevator:
 
 # Building class
 class Building:
-    def __init__(self, top_floor, bottom_floor, elevator_count):
+    def __init__(self, bottom_floor, top_floor, elevator_count):
         self.top_floor = top_floor
         self.bottom_floor = bottom_floor
+        self.elevator_count = [Elevator(bottom_floor, top_floor) for _ in range(elevator_count)]
     
     def move_elevator(self, elevator_num, target):
-        pass
+        if elevator_num < len(self.elevator_count):
+            print(f"Liikutaan hissillä {elevator_num + 1}")
+            self.elevator_count[elevator_num].move_to_floor(target)
 
-floor_to_move = int(input("Mihin kerrokseen haluat mennä: "))
-hotel = Elevator(1, 10)
-Elevator.move_to_floor(hotel,floor_to_move)
+floor_to_move = int(input("Mihin kerrokseen haluat mennä(1-12): "))
+elevator_to_move = int(input("Mitä hissiä haluat käyttää(1-4): "))
+house = Building(1,12,4)
+Building.move_elevator(house,elevator_to_move,floor_to_move)
