@@ -59,6 +59,7 @@ class Building:
     def fire_alarm(self):
         print("Palohälytys! Siirretään kaikki hissit pohjakerrokseen")
         for i in range(len(self.elevator_count)):
+            print(f"Liikutetaan hissiä {i + 1}")
             self.elevator_count[i].move_to_floor(1)
 
 
