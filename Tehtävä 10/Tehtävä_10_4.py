@@ -56,7 +56,7 @@ class Race:
         self.car_list.sort(key=lambda c: c.distance, reverse=True)
         for c in self.car_list:
             print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
-        time.sleep(2)
+        time.sleep(1)
 
     def race_over(self,hour):
         print(f"\nThe Race is over! Time to complete: {hour}.\nHere are the results:")

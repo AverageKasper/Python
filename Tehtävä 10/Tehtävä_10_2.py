@@ -25,17 +25,6 @@ class Elevator:
 
         print(f"\nHissi palaa pohjakerrokseen.")
 
-        # Returns to the bottom floor
-        while self.current_floor is not self.bottom_floor:
-            if self.current_floor > self.bottom_floor:
-                
-                Elevator.floor_down(self,1)
-            elif self.current_floor < self.bottom_floor:
-                
-                Elevator.floor_up(self,1)
-        else:
-            print(f"Hissi on kerroksessa {self.current_floor}")
-
     # Elevator goes up
     def floor_up(self, floor):
         self.current_floor += floor

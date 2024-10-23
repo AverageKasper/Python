@@ -7,5 +7,5 @@ class Car:
 
 charger = Car("ABC-123","142 km/h")
 
-print(f"Auton ominaisuudet:\nrekisteritunnus: {charger.register} \nhuippunopeus: {charger.top_current_speed} "
+print(f"Auton ominaisuudet:\nrekisteritunnus: {charger.register} \nhuippunopeus: {charger.top_speed} "
       f"\ntämänhetkinen nopeus: {charger.current_speed} \nkuljettu matka: {charger.distance}")
