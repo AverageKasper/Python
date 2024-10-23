@@ -35,34 +35,30 @@ class Race:
         
 
     def hour_passed(self):
-        total_hours = 0
-        while True:
-            total_hours += 1
-            for c in self.car_list:
-                if c.distance < self.lenght_km:
-                    acceleration = r.randint(-10,15)
-                    c.accelerate(acceleration)
-                    c.travel(1)
-                else:
-                    break
-            if total_hours % 10 == 0:
-                self.print_result(total_hours)
-            if c.distance >= self.lenght_km:
-                self.race_over(total_hours)
-                break
+        for car in self.car_list:
+            acceleration = r.randint(-10, 15)
+            car.accelerate(acceleration)
+            car.travel(1)
+        
+        
+        
 
     def print_result(self,hour):
         print(f"\nHours passed: {hour}")
         self.car_list.sort(key=lambda c: c.distance, reverse=True)
         for c in self.car_list:
             print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
-        time.sleep(1)
+        time.sleep(0.5)
 
-    def race_over(self,hour):
-        print(f"\nThe Race is over! Time to complete: {hour}.\nHere are the results:")
-        self.car_list.sort(key=lambda c: c.distance, reverse=True)
-        for c in self.car_list:
-            print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
+    def race_over(self):
+        for car in self.car_list:
+            if car.distance >= self.lenght_km:
+                return True
+            else:
+                return False
+
+        
+        
         
 cars = []
 total_hours = 0
@@ -78,4 +74,18 @@ for c in cars:
     print(f"Car: {c.register:8} Top Speed {c.top_speed:3.0f}km/h")
 time.sleep(2)
 
-great_derby.hour_passed()
+race_over = False
+while race_over == False:
+    total_hours += 1
+    great_derby.hour_passed()
+    race_over = great_derby.race_over()
+    if total_hours % 10 == 0:
+        great_derby.print_result(total_hours)
+
+print("\nThe race is over!", end="")
+great_derby.print_result(total_hours)
+
+
+# self.car_list.sort(key=lambda c: c.distance, reverse=True)
+#         for c in self.car_list:
+#             print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")
