@@ -18,7 +18,7 @@ for n in list:
     print(f"| Degree: {n:3} | Radians: {np.radians(n):4.4f} |")
 print("¯" * 33) 
 
-print("Tehtävä 2")
+print("Tehtävä 2.2")
 # En kirjoita suomeksi, my bad
 print(f"Triangles sides are 1.6m and 2.3m. Triangles hypotenuse size: {np.hypot(1.6, 2.3):.2f}m")
 
