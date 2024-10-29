@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 answer = input("Would you like to read a chuck norris joke? (Y/N) ").upper().strip()
 while answer != "Y" and answer != "N":
     answer = input("Invalid input, try again. (Y/N) ")

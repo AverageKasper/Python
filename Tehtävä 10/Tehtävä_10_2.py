@@ -45,10 +45,8 @@ class Building:
             print(f"\nLiikutaan hissillä {elevator_num + 1}")
             self.elevator_count[elevator_num].move_to_floor(target)
 
-
 house = Building(1,12,4)
 Building.move_elevator(house,0,7)
 Building.move_elevator(house,1,3)
 Building.move_elevator(house,2,12)
 Building.move_elevator(house,3,2)
-

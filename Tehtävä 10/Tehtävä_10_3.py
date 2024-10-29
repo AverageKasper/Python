@@ -49,11 +49,9 @@ class Building:
             print(f"Liikutetaan hissiä {i + 1}")
             self.elevator_count[i].move_to_floor(1)
 
-
 house = Building(1,12,4)
 Building.move_elevator(house,0,5)
 Building.move_elevator(house,1,10)
 Building.move_elevator(house,2,12)
 Building.move_elevator(house,3,2)
 Building.fire_alarm(house)
-

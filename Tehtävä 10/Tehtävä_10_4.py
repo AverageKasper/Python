@@ -33,15 +33,11 @@ class Race:
         self.lenght_km = lenght_km
         self.car_list = car_list
         
-
     def hour_passed(self):
         for car in self.car_list:
             acceleration = r.randint(-10, 15)
             car.accelerate(acceleration)
             car.travel(1)
-        
-        
-        
 
     def print_result(self,hour):
         print(f"\nHours passed: {hour}")
@@ -56,16 +52,12 @@ class Race:
                 return True
             else:
                 return False
-
-        
-        
-        
+  
 cars = []
 total_hours = 0
 # Loop for car generation
 for c in range(10):
     cars.append(Car("ABC-"+str(c+1), r.randint(100,200)))
-
 
 great_derby = Race("Great Derby", 8000, cars)
 
@@ -84,8 +76,3 @@ while race_over == False:
 
 print("\nThe race is over!", end="")
 great_derby.print_result(total_hours)
-
-
-# self.car_list.sort(key=lambda c: c.distance, reverse=True)
-#         for c in self.car_list:
-#             print(f"Car: {c.register:8} Current Speed {c.current_speed:3.0f}; Top Speed {c.top_speed:3.0f}km/h; Distance {c.distance:7}km")

@@ -28,7 +28,6 @@ class Elevator:
     def floor_down(self, floor):
         self.current_floor -= floor
 
-
 hotel = Elevator(1, 10)
 hotel.move_to_floor(7)
 hotel.move_to_floor(1)
