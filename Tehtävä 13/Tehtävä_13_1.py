@@ -1,19 +1,24 @@
 from flask import Flask, request
 
 app = Flask(__name__)
-@app.route('/summa')
-def summa():
-    args = request.args
-    luku1 = float(args.get("luku1"))
-    luku2 = float(args.get("luku2"))
-    summa = luku1+luku2
+@app.route('/prime/<num>')
 
-    vastaus = {
-        "luku1" : luku1,
-        "luku2" : luku2,
-        "summa" : summa
+def prime(num):
+    num = int(num)
+    if num > 1:
+        for n in range(2, (num//2) +1):
+            if num % n == 0:
+                is_prime = False
+                break
+        else:
+            is_prime = True
+    else:
+        is_prime = False
+    result = {
+        "number" : num,
+        "is_prime" : is_prime
     }
 
-    return vastaus
+    return result
 if __name__ == '__main__':
     app.run(use_reloader=True, host='127.0.0.1', port=4000)
